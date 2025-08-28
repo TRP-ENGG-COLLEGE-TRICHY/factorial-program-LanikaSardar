@@ -1,10 +1,10 @@
 # Factorial program in Python
 
-def factorial(n):
+def fact(n):
     if n == 0 or n == 1:
         return 1
     else:
-        return n * factorial(n - 1)
+        return n * fact(n - 1)
 
 # Take input from user
 num = int(input("Enter a number: "))
